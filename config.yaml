@@ -1,0 +1,19 @@
+mcpServers:
+  rockx:
+    enable: false
+    type: http
+    url: https://access-api.rockx.com/mcp
+    headers:
+      X-API-Key: qEVO88dC387sE5PsPEMW
+  mcd:
+    enable: false
+    type: http
+    url: https://mcp.mcd.cn
+    headers:
+      Authorization: Bearer 23omyXJEPj0EYZWjpB4HFXnMrUjOVEjo
+  mcp_server_name:
+    enable: true
+    type: http
+    url: http://127.0.0.1:8000/mcp
+
+skill_dir: ./skills
